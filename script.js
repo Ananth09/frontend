@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       responseContainer.textContent = result;
     } catch (error) {
       console.error("Error:", error);
-      responseContainer.textContent = "An error occurred.";
+      responseContainer.textContent = "An error occurred!";
     }
   });
 });
