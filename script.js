@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   fetchButton.addEventListener("click", async () => {
     const apiUrl = "file:///Users/amansharma/Desktop/btpBOT/index.html"; // Replace with your proxy server URL
-
+   
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("accesstoken", "your-access-token"); // Replace with your access token
