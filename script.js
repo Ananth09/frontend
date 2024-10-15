@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const raw = JSON.stringify({
       user_input: "what is ",
     });
-
+  
     const requestOptions = {
       method: "POST",
       headers: myHeaders,
