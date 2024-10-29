@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const fetchButton = document.getElementById("fetchButton");
   const responseContainer = document.getElementById("responseContainer");
   
-  fetchButton.addEventListener("click", async () => {
+  fetchButton.addEventListener("click", async () => { 
     const apiUrl = "file:///Users/amansharma/Desktop/btpBOT/index.html"; // Replace with your proxy server URL
    
     const myHeaders = new Headers();
